@@ -1,0 +1,70 @@
+// JHipster JDL
+
+// LibraryUser entity
+entity LibraryUser {
+  	fullname String required
+	birthdate Instant required
+    memeberdate Instant required
+	email String required unique pattern(/^[^@\s]+@[^@\s]+\.[^@\s]+$/)
+	mobile String unique pattern(/^(\+\d{1,3}[- ]?)?\d{10}$/)
+	adress String
+	note String
+  	image ImageBlob // Added extra
+}
+
+// Author entity
+entity Author {
+	fullname  String required
+	birtrthyear Integer
+	deathyear Integer
+	note String
+}
+
+
+// Genre entity
+entity Genre {
+ 	name String required
+	note String
+}
+
+// Book entity
+entity Book {
+    // @Id isbn String required unique pattern(/^(97(8|9))?\d{9}(\d|X)$/)
+    isbn String required unique pattern(/^(97(8|9))?\d{9}(\d|X)$/)
+    title String required
+    year Integer
+    note String
+}
+
+// UserBookLending entity
+entity UserBookLending {
+  loantime Instant required
+  returntime Instant
+  status LendingStatus required
+  note String
+}
+
+enum LendingStatus {
+    LENDED, RETURNED, RETURNED_DAMAGED, LOST
+}
+
+relationship OneToOne {
+ LibraryUser{user} to User
+}
+
+relationship ManyToMany {
+     Author{genres(name) required} to Genre{authors(fullname)}
+     Book{genres(name) required} to Genre{books(title)}
+}
+
+// defining multiple OneToMany relationships
+relationship OneToMany {
+	Author to Book{author(fullname) required}
+    LibraryUser to UserBookLending{user(fullname) required}
+    Book to UserBookLending{book(title) required}
+}
+
+service * with serviceClass
+dto * with mapstruct
+paginate LibraryUser, Author, Book, UserBookLending with pagination except Genre
+//search LibraryUser, Author, Book, UserBookLending with elasticsearch except Genre
