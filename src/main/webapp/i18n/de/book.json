@@ -1,0 +1,30 @@
+{
+  "libraryApp": {
+    "book": {
+      "home": {
+        "title": "Books",
+        "refreshListLabel": "Liste aktualisieren",
+        "createLabel": "Book erstellen",
+        "createOrEditLabel": "Book erstellen oder bearbeiten",
+        "notFound": "Keine Books gefunden"
+      },
+      "created": "Book erstellt mit ID {{ param }}",
+      "updated": "Book aktualisiert mit ID {{ param }}",
+      "deleted": "Book gelöscht mit ID {{ param }}",
+      "delete": {
+        "question": "Soll Book {{ id }} wirklich dauerhaft gelöscht werden?"
+      },
+      "detail": {
+        "title": "Book"
+      },
+      "id": "ID",
+      "isbn": "Isbn",
+      "title": "Title",
+      "year": "Year",
+      "note": "Note",
+      "userBookLending": "User Book Lending",
+      "genres": "Genres",
+      "author": "Author"
+    }
+  }
+}

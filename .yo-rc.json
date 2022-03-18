@@ -25,7 +25,7 @@
     "jhipsterVersion": "7.6.0",
     "jwtSecretKey": "ODVkYzJiZGNiMjljNGY2NzJkODIxNWFiMjE5NGZhZDUzYzViNmJmZWRjY2U1ODczNjQ3MDQ5ZDU1MGRiOGZlNzE5NzM0NDRkZWI5OWVjOWYwMGQ3NzkxZGNkOWJkZDA1Y2VjZTIxZTQ5YTRjOWM4ZmYxYzRkMWQ2MjU2Njc0YmI=",
     "languages": ["en", "hr", "de"],
-    "lastLiquibaseTimestamp": 1647623420000,
+    "lastLiquibaseTimestamp": 1647624301000,
     "messageBroker": false,
     "monorepository": true,
     "nativeLanguage": "en",

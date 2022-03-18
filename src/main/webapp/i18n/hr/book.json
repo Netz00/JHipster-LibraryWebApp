@@ -1,0 +1,30 @@
+{
+  "libraryApp": {
+    "book": {
+      "home": {
+        "title": "Books",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Kreirati Book",
+        "createOrEditLabel": "Kreirati ili urediti Book",
+        "notFound": "Nije nađeno Books"
+      },
+      "created": "Kreiran je Book sa identifikatorom {{ param }}",
+      "updated": "Ažuriran je Book sa identifikatorom {{ param }}",
+      "deleted": "Obrisan je Book sa identifikatorom {{ param }}",
+      "delete": {
+        "question": "Da li ste sigurni da želite obrisati Book {{ id }}?"
+      },
+      "detail": {
+        "title": "Book"
+      },
+      "id": "ID",
+      "isbn": "Isbn",
+      "title": "Title",
+      "year": "Year",
+      "note": "Note",
+      "userBookLending": "User Book Lending",
+      "genres": "Genres",
+      "author": "Author"
+    }
+  }
+}

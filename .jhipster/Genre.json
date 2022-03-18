@@ -1,0 +1,42 @@
+{
+  "applications": "*",
+  "changelogDate": "20220318172459",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "genre",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "note",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Genre",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityField": "fullname",
+      "otherEntityName": "author",
+      "otherEntityRelationshipName": "genres",
+      "ownerSide": false,
+      "relationshipName": "authors",
+      "relationshipType": "many-to-many"
+    },
+    {
+      "otherEntityField": "title",
+      "otherEntityName": "book",
+      "otherEntityRelationshipName": "genres",
+      "ownerSide": false,
+      "relationshipName": "books",
+      "relationshipType": "many-to-many"
+    }
+  ],
+  "service": "serviceClass"
+}

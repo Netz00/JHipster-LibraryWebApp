@@ -11,6 +11,16 @@ import activate from 'app/modules/account/activate/activate.reducer';
 import password from 'app/modules/account/password/password.reducer';
 import settings from 'app/modules/account/settings/settings.reducer';
 import passwordReset from 'app/modules/account/password-reset/password-reset.reducer';
+// prettier-ignore
+import libraryUser from 'app/entities/library-user/library-user.reducer';
+// prettier-ignore
+import author from 'app/entities/author/author.reducer';
+// prettier-ignore
+import genre from 'app/entities/genre/genre.reducer';
+// prettier-ignore
+import book from 'app/entities/book/book.reducer';
+// prettier-ignore
+import userBookLending from 'app/entities/user-book-lending/user-book-lending.reducer';
 /* jhipster-needle-add-reducer-import - JHipster will add reducer here */
 
 const rootReducer = {
@@ -24,6 +34,11 @@ const rootReducer = {
   passwordReset,
   password,
   settings,
+  libraryUser,
+  author,
+  genre,
+  book,
+  userBookLending,
   /* jhipster-needle-add-reducer-combine - JHipster will add reducer here */
   loadingBar,
 };

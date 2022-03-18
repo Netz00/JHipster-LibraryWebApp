@@ -1,0 +1,29 @@
+{
+  "libraryApp": {
+    "author": {
+      "home": {
+        "title": "Authors",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Kreirati Author",
+        "createOrEditLabel": "Kreirati ili urediti Author",
+        "notFound": "Nije nađeno Authors"
+      },
+      "created": "Kreiran je Author sa identifikatorom {{ param }}",
+      "updated": "Ažuriran je Author sa identifikatorom {{ param }}",
+      "deleted": "Obrisan je Author sa identifikatorom {{ param }}",
+      "delete": {
+        "question": "Da li ste sigurni da želite obrisati Author {{ id }}?"
+      },
+      "detail": {
+        "title": "Author"
+      },
+      "id": "ID",
+      "fullname": "Fullname",
+      "birtrthyear": "Birtrthyear",
+      "deathyear": "Deathyear",
+      "note": "Note",
+      "book": "Book",
+      "genres": "Genres"
+    }
+  }
+}

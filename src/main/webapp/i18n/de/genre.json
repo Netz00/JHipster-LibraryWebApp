@@ -1,0 +1,27 @@
+{
+  "libraryApp": {
+    "genre": {
+      "home": {
+        "title": "Genres",
+        "refreshListLabel": "Liste aktualisieren",
+        "createLabel": "Genre erstellen",
+        "createOrEditLabel": "Genre erstellen oder bearbeiten",
+        "notFound": "Keine Genres gefunden"
+      },
+      "created": "Genre erstellt mit ID {{ param }}",
+      "updated": "Genre aktualisiert mit ID {{ param }}",
+      "deleted": "Genre gelöscht mit ID {{ param }}",
+      "delete": {
+        "question": "Soll Genre {{ id }} wirklich dauerhaft gelöscht werden?"
+      },
+      "detail": {
+        "title": "Genre"
+      },
+      "id": "ID",
+      "name": "Name",
+      "note": "Note",
+      "authors": "Authors",
+      "books": "Books"
+    }
+  }
+}

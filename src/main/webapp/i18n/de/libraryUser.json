@@ -1,0 +1,33 @@
+{
+  "libraryApp": {
+    "libraryUser": {
+      "home": {
+        "title": "Library Users",
+        "refreshListLabel": "Liste aktualisieren",
+        "createLabel": "Library User erstellen",
+        "createOrEditLabel": "Library User erstellen oder bearbeiten",
+        "notFound": "Keine Library Users gefunden"
+      },
+      "created": "Library User erstellt mit ID {{ param }}",
+      "updated": "Library User aktualisiert mit ID {{ param }}",
+      "deleted": "Library User gelöscht mit ID {{ param }}",
+      "delete": {
+        "question": "Soll Library User {{ id }} wirklich dauerhaft gelöscht werden?"
+      },
+      "detail": {
+        "title": "Library User"
+      },
+      "id": "ID",
+      "fullname": "Fullname",
+      "birthdate": "Birthdate",
+      "memeberdate": "Memeberdate",
+      "email": "Email",
+      "mobile": "Mobile",
+      "adress": "Adress",
+      "note": "Note",
+      "image": "Image",
+      "user": "User",
+      "userBookLending": "User Book Lending"
+    }
+  }
+}

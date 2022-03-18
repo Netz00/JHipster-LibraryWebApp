@@ -1,0 +1,52 @@
+{
+  "applications": "*",
+  "changelogDate": "20220318172501",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "user_book_lending",
+  "fields": [
+    {
+      "fieldName": "loantime",
+      "fieldType": "Instant",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "returntime",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "LendingStatus",
+      "fieldValidateRules": ["required"],
+      "fieldValues": "LENDED,RETURNED,RETURNED_DAMAGED,LOST"
+    },
+    {
+      "fieldName": "note",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "UserBookLending",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityField": "fullname",
+      "otherEntityName": "libraryUser",
+      "otherEntityRelationshipName": "userBookLending",
+      "relationshipName": "user",
+      "relationshipType": "many-to-one",
+      "relationshipValidateRules": "required"
+    },
+    {
+      "otherEntityField": "title",
+      "otherEntityName": "book",
+      "otherEntityRelationshipName": "userBookLending",
+      "relationshipName": "book",
+      "relationshipType": "many-to-one",
+      "relationshipValidateRules": "required"
+    }
+  ],
+  "service": "serviceClass"
+}

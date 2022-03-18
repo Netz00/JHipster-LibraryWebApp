@@ -1,0 +1,29 @@
+{
+  "libraryApp": {
+    "userBookLending": {
+      "home": {
+        "title": "User Book Lendings",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Kreirati User Book Lending",
+        "createOrEditLabel": "Kreirati ili urediti User Book Lending",
+        "notFound": "Nije nađeno User Book Lendings"
+      },
+      "created": "Kreiran je User Book Lending sa identifikatorom {{ param }}",
+      "updated": "Ažuriran je User Book Lending sa identifikatorom {{ param }}",
+      "deleted": "Obrisan je User Book Lending sa identifikatorom {{ param }}",
+      "delete": {
+        "question": "Da li ste sigurni da želite obrisati User Book Lending {{ id }}?"
+      },
+      "detail": {
+        "title": "User Book Lending"
+      },
+      "id": "ID",
+      "loantime": "Loantime",
+      "returntime": "Returntime",
+      "status": "Status",
+      "note": "Note",
+      "user": "User",
+      "book": "Book"
+    }
+  }
+}

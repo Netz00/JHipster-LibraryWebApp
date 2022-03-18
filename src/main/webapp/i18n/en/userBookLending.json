@@ -1,0 +1,29 @@
+{
+  "libraryApp": {
+    "userBookLending": {
+      "home": {
+        "title": "User Book Lendings",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new User Book Lending",
+        "createOrEditLabel": "Create or edit a User Book Lending",
+        "notFound": "No User Book Lendings found"
+      },
+      "created": "A new User Book Lending is created with identifier {{ param }}",
+      "updated": "A User Book Lending is updated with identifier {{ param }}",
+      "deleted": "A User Book Lending is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete User Book Lending {{ id }}?"
+      },
+      "detail": {
+        "title": "User Book Lending"
+      },
+      "id": "ID",
+      "loantime": "Loantime",
+      "returntime": "Returntime",
+      "status": "Status",
+      "note": "Note",
+      "user": "User",
+      "book": "Book"
+    }
+  }
+}

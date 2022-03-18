@@ -1,0 +1,33 @@
+{
+  "libraryApp": {
+    "libraryUser": {
+      "home": {
+        "title": "Library Users",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Library User",
+        "createOrEditLabel": "Create or edit a Library User",
+        "notFound": "No Library Users found"
+      },
+      "created": "A new Library User is created with identifier {{ param }}",
+      "updated": "A Library User is updated with identifier {{ param }}",
+      "deleted": "A Library User is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Library User {{ id }}?"
+      },
+      "detail": {
+        "title": "Library User"
+      },
+      "id": "ID",
+      "fullname": "Fullname",
+      "birthdate": "Birthdate",
+      "memeberdate": "Memeberdate",
+      "email": "Email",
+      "mobile": "Mobile",
+      "adress": "Adress",
+      "note": "Note",
+      "image": "Image",
+      "user": "User",
+      "userBookLending": "User Book Lending"
+    }
+  }
+}

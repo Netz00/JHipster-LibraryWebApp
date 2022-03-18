@@ -1,0 +1,11 @@
+{
+  "libraryApp": {
+    "LendingStatus": {
+      "null": "",
+      "LENDED": "LENDED",
+      "RETURNED": "RETURNED",
+      "RETURNED_DAMAGED": "RETURNED_DAMAGED",
+      "LOST": "LOST"
+    }
+  }
+}
